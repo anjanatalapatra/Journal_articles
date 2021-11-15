@@ -1,0 +1,53 @@
+e-e
+read 1
+ba
+go p-3
+rei
+
+
+s-a-v
+1
+x(GA)
+0
+1,,
+
+s-a-v
+2
+x(CO)
+0
+1,,
+
+s-c p=100000,x(ga)=0.3,x(co)=0.4,t=1473,n=1
+c-e
+c-e
+
+adv
+global
+y
+
+c-e,,,
+
+map,,
+
+post
+s-d-t
+y,,,,
+s-t-s 3,,,
+s-l-c
+e,,
+plot,,
+
+a-e-d
+y
+1473K.exp
+1
+y
+y
+1
+plot,,,
+
+ba
+ba
+
+set-interactive
+

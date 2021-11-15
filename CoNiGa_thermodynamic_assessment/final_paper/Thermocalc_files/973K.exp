@@ -1,0 +1,107 @@
+PROLOG 1 
+XSCALE          0.00000    1
+YSCALE          0.00000    1
+XTYPE LINEAR
+YTYPE LINEAR
+XLENGTH       11.5
+YLENGTH       11.5
+TITLE CO-NI-GA AT 973 K
+XTEXT  MOLE_FRACTIION GA
+YTEXT  MOLE_FRACTION CO
+DIAGRAM_TYPE TRIANGULAR
+PLOT_3RD_AXIS YES
+CLIP_ALONG_THIRD_AXIS YES
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;     GOC,WA;
+$X(BETA,GA)   X(BETA,CO)    
+0.326         0.344
+0.327         0.354
+0.331         0.508
+0.321         0.658
+0.326         0.24
+0.332         0.208
+0.326         0.24
+0.414         0.088
+0.383         0.117
+$
+BLOCKEND
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(FCC,GA)    X(FCC,CO)
+0.176        0.536
+0.147        0.613
+0.123        0.791
+0.114        0.876
+0.224        0.349
+0.145        0.02
+0.129        0.09
+0.104        0.189
+$
+BLOCKEND
+
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(alpha',GA)    X(alpha',CO)
+0.295           0.005
+0.290           0.015
+0.274           0.212
+0.257           0.256
+0.233           0.005
+0.215           0.079
+0.207           0.208
+$
+BLOCKEND
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(Ni5Ga3,GA)    X(Ni5Ga3,CO)
+0.357           0.015
+0.352           0.034
+0.373           0.069
+0.362           0.034
+$
+BLOCKEND
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(Ni3Ga2,GA)    X(Ni3Ga2,CO)
+0.414             0.059
+0.404             0.02
+$
+BLOCKEND
+
+
+
+
+
+
+ 
+

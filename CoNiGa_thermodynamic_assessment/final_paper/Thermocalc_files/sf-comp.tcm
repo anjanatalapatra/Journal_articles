@@ -1,0 +1,42 @@
+e-e
+read
+1
+ba
+go p-3
+rei
+
+s-c p=100000,t=1173,n=1,x(co)=0.5
+c-s p *=sus
+c-s p beta=ent 1
+s-a-v
+1
+x(GA)
+0.3
+0.6,,
+c-e
+c-e 
+c-e
+add
+1
+step,,,
+
+post
+s-d-a x mole_fraction ga
+s-d-a y y(BETA,VA#2)
+s-s-s x n 0.3 0.5,,,
+s-s-s y n 0 0.25,,,,
+plot,,,
+
+
+ba
+ba
+
+
+
+set-interactive
+
+
+
+
+
+

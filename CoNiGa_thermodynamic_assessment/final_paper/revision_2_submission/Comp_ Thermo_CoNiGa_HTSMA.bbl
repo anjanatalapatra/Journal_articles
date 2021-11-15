@@ -1,0 +1,214 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Oik01}
+K.~Oikawa, T.~Ota, F.~Gejima, T.~Ohmori, R.~Kainuma, K.~Ishida, {Phase
+  equilibria and phase transformations in new B2-type ferromagnetic shape
+  memory alloys of Co-Ni-Ga and Co-Ni-Al systems}, Materials transactions-JIM
+  42~(11) (2001) 2472--2475.
+
+\bibitem{Oik06}
+K.~Oikawa, T.~Ota, Y.~Imano, T.~Omori, R.~Kainuma, K.~Ishida, {Phase equilibria
+  and phase transformation of Co- Ni- Ga ferromagnetic shape memory alloy
+  system}, Journal of phase equilibria and diffusion 27~(1) (2006) 75--82.
+
+\bibitem{Liu06}
+J.~Liu, H.~Xie, Y.~Huo, H.~Zheng, J.~Li, {Microstructure evolution in {CoNiGa}
+  shape memory alloys}, Journal of Alloys and Compounds 420~(1-2) (2006)
+  145--157.
+
+\bibitem{05Su}
+X.~Su, J.-C. Tedenac, {Thermodynamic modeling of the cobalt--gallium system},
+  Intermetallics 13~(5) (2005) 467--473.
+
+\bibitem{Cha10}
+A.~Chari, A.~Garay, R.~Arr{\'o}yave, {Thermodynamic remodeling of the {Co--Ga}
+  system}, Calphad 34~(2) (2010) 189--195.
+
+\bibitem{Ipser04}
+W.~Yuan, Z.~Qiao, H.~Ipser, G.~Eriksson, {Thermodynamic Assessment of the Ni-Ga
+  System}, Journal of Phase Equilibria \& Diffusion 25~(1) (2004) 68--74.
+
+\bibitem{Nish90}
+K.~Ishida, T.~Nishizawa, T.~Massalski, {Binary alloy phase diagrams}, The
+  Materials Information Society, ASM International, Materials Park, Ohio.
+
+\bibitem{Ish91}
+K.~Ishida, R.~Kainuma, N.~Ueno, T.~Nishizawa, {Ductility enhancement in NiAl
+  (B2)-base alloys by microstructural control}, Metallurgical and materials
+  Transactions A 22~(2) (1991) 441--446.
+
+\bibitem{Liu07}
+J.~Liu, J.~Li, {Microstructure, superelasticity and fracture behavior in
+  magnetic shape memory {Co--Ni--Ga--Fe} alloys with two-phase structures},
+  Scripta Materialia 56~(2) (2007) 109--112.
+
+\bibitem{Kain96}
+R.~Kainuma, M.~Ise, C.-C. Jia, H.~Ohtani, K.~Ishida, {Phase equilibria and
+  microstructural control in the Ni-Co-Al system}, Intermetallics 4, Supplement
+  1 (1996) S151--S158.
+
+\bibitem{Tan06}
+Y.~Tanaka, K.~Oikawa, Y.~Sutou, T.~Omori, R.~Kainuma, K.~Ishida, {Martensitic
+  transition and superelasticity of {Co--Ni--Al} ferromagnetic shape memory
+  alloys with β + γ two-phase structure}, Materials Science and Engineering:
+  A 438--440 (2006) 1054--1060.
+
+\bibitem{Kain92}
+R.~Kainuma, K.~Ishida, T.~Nishizawa, {Thermoelastic martensite and shape memory
+  effect in B2 Base Ni-Al-Fe alloy with enhanced ductility}, Metallurgical
+  Transactions A 23~(4) (1992) 1147--1153.
+
+\bibitem{Ono99}
+N.~Ono, A.~Tsukahara, R.~Kainuma, K.~Ishida, {The properties of two-phase
+  {Ni--Al--Fe} shape memory alloys in the virgin and shape-memory-cycled
+  states}, Materials Science and Engineering: A 273--275 (1999) 420--424.
+
+\bibitem{Duch08}
+R.~Ducher, R.~Kainuma, K.~Ishida, {Phase equilibria in the Ni-Co-Ga alloy
+  system}, Journal of Alloys and Compounds 466~(1-2) (2008) 208--213.
+
+\bibitem{Omo04}
+T.~Omori, N.~Kamiya, Y.~Sutou, K.~Oikawa, R.~Kainuma, K.~Ishida, {Phase
+  transformations in {Ni--Ga--Fe} ferromagnetic shape memory alloys}, Materials
+  Science and Engineering: A 378~(1--2) (2004) 403--408.
+
+\bibitem{Oik02}
+K.~Oikawa, T.~Ota, T.~Ohmori, Y.~Tanaka, H.~Morito, A.~Fujita, R.~Kainuma,
+  K.~Fukamichi, K.~Ishida, {Magnetic and martensitic phase transitions in
+  ferromagnetic Ni--Ga--Fe shape memory alloys}, Applied physics letters
+  81~(27) (2002) 5201--5203.
+
+\bibitem{Pru08}
+K.~Prusik, B.~Kostrubiec, T.~Goryczka, G.~Dercz, P.~Ochin, H.~Morawiec, {Effect
+  of composition and heat treatment on the martensitic transformations in
+  {Co--Ni--Ga} alloys}, Materials Science and Engineering: A 481-482 (2008)
+  330--333.
+
+\bibitem{Oikaw01}
+K.~Oikawa, L.~Wulff, T.~Iijima, F.~Gejima, T.~Ohmori, A.~Fujita, K.~Fukamichi,
+  R.~Kainuma, K.~Ishida, {Promising ferromagnetic {Ni--Co--Al} shape memory
+  alloy system}, Applied Physics Letters 79~(20) (2001) 3290.
+
+\bibitem{Mik87}
+A.~Mikula, {Thermodynamic properties of Ternary-B2 phases with triple
+  defects.Part II: EMF measurements in $\beta'$-CoGa,$\beta'$-NiGa and
+  $\beta'$-(Co,Ni)Ga}, Zeitschrift fur Metallkunde 78~(3) (1987) 172--176.
+
+\bibitem{Boo78}
+J.~Booth, R.~Cywinski, J.~Prince, {Magnetic and structural phases of nickel and
+  coppers substituted CoGa alloys}, Journal of Magnetism and Magnetic Materials
+  7~(1) (1978) 127--130.
+
+\bibitem{Hao84}
+S.~M. Hao, T.~Takayama, K.~Ishida, T.~Nishizawa, {Miscibility Gap in Fe-Ni-Al
+  and Fe-Ni-Al-Co Systems}, Metallurgical Transactions A 15~(10) (1984)
+  1819--1828.
+
+\bibitem{Zha04}
+J.-C. Zhao, {Reliability of the diffusion-multiple approach for phase diagram
+  mapping}, Journal of materials science 39~(12) (2004) 3913--3925.
+
+\bibitem{Duch07}
+R.~Ducher, R.~Kainuma, K.~Ishida, {Phase equilibria in the Ni-rich portion of
+  the {Ni--Ga} binary system}, Intermetallics 15~(2) (2007) 148--153.
+
+\bibitem{82Wuns}
+K.~Wunsch, E.~Wachtel, {Defect Structure and Lattice Parameter of Co--Ga Alloys
+  with B 2-Structure}, Zeitschrift fur Metallkunde 73~(5) (1982) 311--315.
+
+\bibitem{81Omm}
+A.~{Van Ommen}, A.~Waegemaekers, A.~Moleman, H.~Schlatter, H.~Bakker,
+  {Vacancies in CoGa}, Acta Metallurgica 29~(1) (1981) 123--133.
+
+\bibitem{75Bern}
+D.~Berner, G.~Geibel, V.~Gerold, E.~Wachtel, {Structural defects and magnetic
+  properties in the ordered compound CoGa}, Journal of Physics and Chemistry of
+  Solids 36~(4) (1975) 221--227.
+
+\bibitem{99Dup}
+N.~Dupin, I.~Ansara, {On the sublattice formalism applied to the B2 phase},
+  Zeitschrift f{\"u}r Metallkunde 90~(1) (1999) 76--85.
+
+\bibitem{73Wat}
+E.~Wachtel, V.~Linse, V.~Gerold, {Defect structure and magnetic moments in the<
+  i> $\beta$-phases of CoAl and CoGa}, Journal of Physics and Chemistry of
+  Solids 34~(9) (1973) 1461--1466.
+
+\bibitem{99Grob}
+J.~Gr{\"o}bner, R.~Wenzel, G.~G. Fischer, R.~Schmid-Fetzer, {Thermodynamic
+  calculation of the binary systems M-Ga and investigation of ternary M-Ga-N
+  phase equilibria (M= Ni, Co, Pd, Cr)}, Journal of phase equilibria 20~(6)
+  (1999) 615--625.
+
+\bibitem{Tan04}
+Y.~Tanaka, T.~Ohmori, K.~Oikawa, R.~Kainuma, K.~Ishida, {Ferromagnetic Co-Ni-Al
+  Shape Memory Alloys with $\beta + \gamma $ Two-Phase Structure}, Materials
+  Transactions 45~(2) (2004) 427--430.
+
+\bibitem{Liu05}
+J.~Liu, H.~Zheng, M.~Xia, Y.~Huang, J.~Li, {Martensitic transformation and
+  magnetic properties in Heusler {CoNiGa} magnetic shape memory alloys},
+  Scripta Materialia 52~(9) (2005) 935--938.
+
+\bibitem{Hans07}
+H.~Lukas, S.~Fries, B.~Sundman, {Computational thermodynamics: the Calphad
+  method}, Cambridge university press, 2007.
+
+\bibitem{96Kres}
+G.~Kresse, J.~Furthm{\"u}ller, {Efficient iterative schemes for ab initio
+  total-energy calculations using a plane-wave basis set}, Physical Review B
+  54~(16) (1996) 11169.
+
+\bibitem{96Kress}
+G.~Kresse, J.~Furthm{\"u}ller, {Efficiency of ab-initio total energy
+  calculations for metals and semiconductors using a plane-wave basis set},
+  Computational Materials Science 6~(1) (1996) 15--50.
+
+\bibitem{92Perd}
+J.~P. Perdew, Y.~Wang, {Accurate and simple analytic representation of the
+  electron-gas correlation energy}, Physical Review B 45~(23) (1992) 13244.
+
+\bibitem{76Monk}
+H.~J. Monkhorst, J.~D. Pack, {Special points for Brillouin-zone integrations},
+  Physical Review B 13~(12) (1976) 5188--5192.
+
+\bibitem{89Meth}
+M.~Methfessel, A.~Paxton, {High-precision sampling for Brillouin-zone
+  integration in metals}, Physical Review B 40~(6) (1989) 3616.
+
+\bibitem{94Bloc}
+P.~E. Bl{\"o}chl, O.~Jepsen, O.~K. Andersen, {Improved tetrahedron method for
+  Brillouin-zone integrations}, Physical Review B 49~(23) (1994) 16223.
+
+\bibitem{ra-stefano}
+W.~Setyawan, S.~Curtarolo, {High-throughput electronic structure calculations:
+  challenges and tools}, Comp. Mater. Sci. 49 (2010) 299--312.
+
+\bibitem{ra-atat2}
+A.~van~de Walle, {Multicomponent multisublattice alloys, nonconfigurational
+  entropy and other additions to the Alloy Theoretic Automated Toolkit},
+  CALPHAD 33 (2009) 266--278.
+
+\bibitem{Mar76}
+S.~Martosudirjo, J.~Pratt, Enthalpies of formation of solid nickel-gallium and
+  nickel-germanium alloys, Thermochimica Acta 17~(2) (1976) 183--194.
+
+\bibitem{Pra93}
+J.~Pratt, J.~Bird, Solid electrolyte cell studies of solid nickel-gallium
+  alloys, Journal of phase equilibria 14~(4) (1993) 465--472.
+
+\bibitem{Kat74}
+I.~Katayama, S.~Igi, Z.~Kozuka, Thermodynamic study of solid ni-ga alloys by
+  emf measurements using the solid electrolyte, Trans. Japan Inst. Metals
+  15~(6) (1974) 447--453.
+
+\bibitem{Pre75}
+B.~Predel, W.~Vogelbein, U.~Schallner, Thermodynamische untersuchung des
+  systems nickel-gallium, Thermochimica Acta 12~(4) (1975) 367--375.
+
+\end{thebibliography}

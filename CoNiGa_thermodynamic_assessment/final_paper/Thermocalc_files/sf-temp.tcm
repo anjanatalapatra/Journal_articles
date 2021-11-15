@@ -1,0 +1,47 @@
+e-e
+read 1
+ba
+go p-3
+rei
+
+s-c p=100000,x(co)=0.5,n=1,t=1000,x(ga)=0.5
+c-s p *=sus
+c-s p beta=ent 1
+c-e
+c-e
+add
+1
+s-a-v 1 t 800 1300,,,,
+step,,,
+s-c x(co)=0.52,t=1000
+c-e
+c-e
+c-e
+add
+1
+step,,,
+s-c x(co)=0.54,t=1000
+c-e
+c-e
+c-e
+add
+1
+step,,,
+
+post
+s-d-a x t
+s-d-a y y(BETA,VA#2)
+s-s-s x n 800 1300
+s-s-s y n 0 0.15
+plot,,
+
+b
+b
+
+
+set-interactive
+
+
+
+
+

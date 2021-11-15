@@ -1,0 +1,23 @@
+e-e
+read 1
+ba
+go p-3
+rei
+
+s-c p=100000,x(ga)=0.05,x(co)=0.8,t=1473,n=1
+c-e
+s-a-v 1 t 200 2000,,
+step,,,
+post
+
+s-d-a x t
+s-d-a y np(*),,
+s-l-c d,,,,
+
+plot
+
+ba
+ba
+
+set-interactive
+

@@ -1,0 +1,24 @@
+PROLOG 1 
+XSCALE          0.37        0.6
+YSCALE          -90000     40000
+XTYPE LINEAR
+YTYPE LINEAR
+XLENGTH       11
+YLENGTH       11
+XTEXT  Mole Fraction Ga
+YTEXT  Partial Enthalpy
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+0.35 0 WS9' Mikula et al.(1987)
+BLOCK X=C1; Y=C2; WA
+$X(GA)        H
+0.40     -112151.7
+0.45     -92647.06
+0.50     -78993.8
+0.55     -78993.8
+0.60     -57538.7
+$
+BLOCKEND

@@ -1,0 +1,109 @@
+PROLOG 1 
+XSCALE          0.00000    1
+YSCALE          0.00000    1
+XTYPE LINEAR
+YTYPE LINEAR
+XLENGTH       11.5
+YLENGTH       11.5
+TITLE CO-NI-GA AT 1273 K
+XTEXT  MOLE_FRACTIION GA
+YTEXT  MOLE_FRACTION CO
+DIAGRAM_TYPE TRIANGULAR
+PLOT_3RD_AXIS YES
+CLIP_ALONG_THIRD_AXIS YES
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;     GOC,WA;
+$X(BETA,GA)   X(BETA,CO)    
+0.300         0.166
+0.300         0.196
+0.305         0.26
+0.305         0.501
+0.328         0.044
+0.316         0.097
+0.302         0.158
+$
+BLOCKEND
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(FCC,GA)    X(FCC,CO)
+0.212        0.256
+0.217        0.297
+0.202        0.392
+0.191        0.662
+0.189        0.015
+0.184        0.037
+$
+BLOCKEND
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+-0.4 1 WS5' Ducher(2008)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(alpha',GA)    X(alpha',CO)
+0.232        0.01
+0.233        0.023
+0.273        0.047
+0.267        0.098
+0.245        0.188
+$
+BLOCKEND
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.13
+CLIP OFF
+-0.4 1.1 WS200' Oikawa(2006)
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(beta,GA)    X(beta,CO)
+0.3072         0.4888
+0.3077         0.4401
+0.3058         0.3908
+0.3106         0.291
+0.3160         0.1949
+$X(fcc,GA)    X(fcc,CO)
+0.1917        0.6485
+0.1911        0.6017
+0.1921        0.5534
+0.2067        0.304
+$
+BLOCKEND
+
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.18
+CLIP OFF
+-0.4 1.05 WS2' Oikawa(2001)
+BLOCK X=C2; Y=C1;    GOC,WA;
+$X(BETA,CO)   X(BETA,GA)
+0.196          0.31
+0.292          0.305
+0.391          0.306
+0.44           0.308
+0.489          0.307
+$X(FCC,CO)    X(FCC,GA)
+0.305        0.2
+0.444        0.186
+0.554        0.192
+0.602        0.191
+0.649        0.192
+$
+BLOCKEND
+ 

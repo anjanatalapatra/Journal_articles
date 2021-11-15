@@ -1,0 +1,25 @@
+PROLOG 1 
+XSCALE          0.00000    0.55
+YSCALE          0.00000    0.16
+XTYPE LINEAR
+YTYPE LINEAR
+XLENGTH       10
+YLENGTH       11
+XTEXT  Mole Fraction Ga
+YTEXT  Activity of Ga
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+0.1 0.14 ' Mikula et al.(1987)
+0.1 0.12 WS2' 1173 K
+BLOCK X=C1; Y=C2; GOC,WA;
+$X(GA)           A
+0.40     0.0126
+0.45     0.03602
+0.50     0.04732
+0.55     0.0932
+0.60     0.18356
+$
+BLOCKEND

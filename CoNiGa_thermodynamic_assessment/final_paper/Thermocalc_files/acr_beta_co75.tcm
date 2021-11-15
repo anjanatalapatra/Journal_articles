@@ -1,0 +1,44 @@
+e-e
+read 1
+ba
+go p-3
+rei
+
+s-c p=10000,t=1173,n=1,x(co)-3*x(ni)=0
+s-c x(ga)=0.4
+c-s p *=sus
+c-s p beta=ent 1
+s-r-s co liquid,,,
+s-r-s ga liquid,,,
+s-r-s ni liquid,,,
+c-e
+c-e
+add
+1
+s-a-v 1 x(GA) 0 0.55,,,,
+step,,,
+
+
+post
+s-d-a x mole_fraction ga
+s-d-a y acr(ga)
+plot,,
+
+s-a-t-s x n Mole Fraction Ga
+s-a-t-s y n Activity of Ga
+
+s-s-s x n 0 0.55
+s-s-s y n 0 0.16
+plot
+
+a-e-d
+y
+acr_co75.exp
+1
+1
+plot,,,
+
+
+set-interactive
+
+

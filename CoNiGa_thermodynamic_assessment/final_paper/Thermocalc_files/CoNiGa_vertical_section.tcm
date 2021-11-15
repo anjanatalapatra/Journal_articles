@@ -1,0 +1,31 @@
+e-e
+read 1
+ba
+go p-3
+rei
+
+s-c p=100000,x(ni)=0.2,t=1173,n=1,x(ga)=0.2
+c-e
+c-e
+c-e,,
+s-a-v 1 x(ga) 0.1 0.45,,,
+s-a-v 2 t 500 2000,,
+map
+post
+
+s-l-c e,,,,
+
+plot
+
+a-e-d
+y
+vert_20Ni.exp
+1
+1
+plot,,,,
+
+ba
+ba
+
+set-interactive
+

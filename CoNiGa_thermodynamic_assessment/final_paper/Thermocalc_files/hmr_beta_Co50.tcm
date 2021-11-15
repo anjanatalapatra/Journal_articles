@@ -1,0 +1,47 @@
+e-e
+read 1
+ba
+go p-3
+rei
+s-c p=10000,t=1173,n=1,x(co)-x(ni)=0
+s-c x(GA)=0.4
+c-s p *=sus
+c-s p beta=ent
+s-r-s co liquid,,,
+s-r-s ni liquid,,,
+s-r-s ga liquid,,,
+ent fun HGA=hmr.x(GA);
+c-e
+c-e
+c-e
+l-e,,,
+add 1
+s-a-v 1 x(GA) 0.3 0.6,,,
+step,,,
+
+post
+s-d-a x mole_fraction GA
+s-d-a y HGA
+plot,,,
+
+
+app
+y
+hmr_beta_co50.exp
+1
+1
+plot,,,
+
+s-a-t-s x n Mole_Fraction Ga
+s-a-t-s y n Partial Enthalpy
+
+plot,,
+
+
+
+set-interactive
+
+
+
+
+

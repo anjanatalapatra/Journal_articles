@@ -1,0 +1,59 @@
+PROLOG 1 
+XSCALE          0.1    0.45
+YSCALE          500    2000
+XTYPE LINEAR
+YTYPE LINEAR
+XLENGTH       11.5
+YLENGTH       11.5
+TITLE Vertical section at 20 at. % Ni
+XTEXT  MOLE_FRACTIION GA
+YTEXT  Temperature, T (K)
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+0.3 1750 WS100'Oikawa et al. [5]
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(GA)    T
+0.15      873
+0.185     1173
+0.315     873
+0.32      1173
+$
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+0.3 1850 WS201'Oikawa et al. [14]
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(GA)     T
+0.2        1273
+0.325      1273     
+$
+
+DATASET 1
+FONT 2
+CHARSIZE 0.3
+SYMBOLSIZE 0.2
+CLIP OFF
+0.3 1950 WS202'Ducher et al. [6]
+BLOCK X=C1; Y=C2;    GOC,WA;
+$X(GA)     T
+0.147      973
+0.332      973
+0.191      1273
+0.316      1273     
+$
+BLOCKEND
+
+
+
+
+
+
+
+
