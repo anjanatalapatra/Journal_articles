@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{color}
+\usepackage{fullpage,subfigure,float,psfrag}
+\usepackage[pdftex]{graphicx}
+\graphicspath{{./figures/}}
+\usepackage[top=0.5in, bottom=0.5in, left=0.25in, right=0.25in]{geometry}
+
+%\usepackage{draftwatermark}    % to generate draft  watermark
+% \SetWatermarkScale{8.0}              % set scale of watermark
+% \SetWatermarkLightness{0.9}    % set  lightness of watermark text
+
+\usepackage[bookmarks=true,pdftoolbar=true]{hyperref}
+\hypersetup{%
+  pdftitle = {Structural transformations in Co-Al SMA's},
+  pdfkeywords = {pdf, hyperref, bookmarks},
+  pdfauthor = {Anjana Talapatra}}
+%\usepackage[all]{hypcap}
+\usepackage{epstopdf}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+%\usepackage{gensymb}
+\usepackage{xspace}   
+\usepackage{siunitx,cite,cleveref}
+\begin{document}
+\centerline{\textbf{CoNiAl}}
+%-----------------------------------------------------------------
+\begin{figure}[htp!]%[!h]
+\centerline{       \includegraphics[scale=0.8]{CNA_phonon_dispersion}}
+     \end{figure}
+\begin{figure}[htp!]%[!h]
+\centerline{       \includegraphics[scale=0.6]{CNA_pvdos_all}}
+     \end{figure}
+\newpage
+\centerline{\textbf{CoNiGa}}
+
+\begin{figure}[htp!]%[!h]
+\centerline{       \includegraphics[scale=0.8]{CNG_phonon_dispersion}}
+     \end{figure}
+\begin{figure}[htp!]%[!h]
+\centerline{       \includegraphics[scale=0.6]{CNG_pvdos_all}}
+     \end{figure}
+\end{document}
