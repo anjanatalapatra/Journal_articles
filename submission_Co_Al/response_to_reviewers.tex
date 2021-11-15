@@ -1,0 +1,87 @@
+%!TEX TS-program = latexmk -pdf NonNegativePoly.tex
+\documentclass[letterpaper,10pt, notitlepage, leqno]{article}
+%\usepackage[hscale=0.9,vscale=0.9]{geometry}
+
+\usepackage{lmodern}
+\usepackage{geometry}
+
+
+\geometry{
+    left=0.75in,
+    top=0.75in,
+    right=0.75in,
+    bottom=0.75in
+}
+
+\usepackage[T1]{fontenc}
+\usepackage{blindtext}
+\usepackage{amsmath, amssymb, mathtools,setspace, amsthm}
+\usepackage[style=authoryear, backend=bibtex]{biblatex}
+\addbibresource{ref.bib}
+\usepackage{hyperref}
+\hypersetup{
+     colorlinks = true,
+     citecolor = blue,
+     linkcolor = black
+}
+
+\def\name{}
+\title{Response to reviewers}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\name}
+\fancyhead[L]{}
+
+
+\begin{document}
+
+\begin{center}
+\textbf{Response to reviewers \\ Ms. Ref. No.:  JALCOM-D-15-04463 \\ Title: Investigation of the energetics of structural transformations in Co-based binary alloys}
+\end{center}
+\onehalfspacing
+We would like to thank the referees of Journal of Alloys and Compounds for considering our paper for submission and giving us valuable suggestions. We have complied with the suggestions, and here is the summary of the improvements we have made to the paper and our response to the referees. \\
+
+\noindent Reviewer \#1: 
+
+The article examined the energy pathways associated with the martensitic f.c.c-h.c.p transformation transformation in shape memory alloys (Co - (Al, Fe, Si) binary alloys) using first principle calculations of energy barriers as a function of composition are calculated and compared against available experimental data. The work certainly has a modicum of novelty, and deserves to be published. However, the followings points should be unambiguously addressed before the paper is considered for publication. \\
+
+(1) Figure 1: There was no associated technical description regarding how the energies for the Bain's paths were obtained. For example, were the calculations ab initio or empirical? If it was ab initio, then which method? Plane wave DFT, localized basis set DFT? If it empirical, then which kind of potentials? Embedded atom model??
+
+\textcolor{red}{\textit{Ans}: The authors apologize for the non-inclusion of details regarding the Bain path calculation. A detailed description of the calculation has been added to the mansuscript} \\
+
+(2) The descriptions for figures 4, 6, 7 \& 9 all begin with "Linear MEP...." Why the "Linear?"
+
+\textcolor{red}{\textit{Ans}: The term `linear' was misused by the authors to show that the MEP is not plotted against the actual parameters in figures 4, 6, 7 \& 9.It has been deemed unnecessary and removed.} \\
+
+
+(3) Were any convergence tests carried out for the MEPs. The k-point sampling seems fine. However, I am not sure if the plane wave kinetic energy cutoff of 350 eV is sufficient. The authors should at least provide ample proof (using selected alloy compositions) that the MEP energies are converged with respect to the plane wave energy cutoff. \\
+
+\textcolor{red}{\textit{Ans}: The end alloy structures( corresponding to fcc and hcp) for all compositions for  were optimized using successive vasp calculations ( isif = 3, 2) and convergence was obtained for all structures using an energy cutoff = 350 eV. This is more that 30 \% of the recommended `ENMAX' for each of the consitutuent elements. Uncertainty in energies will be in the range of a few meV and are not expected to affect the presented results in any significant manner. Subsequently, an energy cutoff of 350eV was deemed sufficient and used for the transformation surface calculations.} \\
+
+
+(4) One of the major conclusions of the work is that both the Wentzcovitch-Lam and Shoji-Nishiyama models fail to explain the trends seen in Co-Si, but the authors never really explained why. The authors should at least provide qualitative arguments to explain the failures. \\
+
+\textcolor{red}{\textit{Ans}: It is possible that effects that have not been considered in this work come into play in the f.c.c -h.c.p transistion in Co-Si. Temperature effects, which are not considered in this work may play an important role in the energetics in Co-Si. It is entirely possible, that the transformation path in Co-Si is different from either of the two explored paths. The purpose of the work is to illustrate that even small additions to pure Co ( which has a well-known transformation path) drastically affect the transformation mechanism. The authors do not want to speculate on reasons why the transformation is unexplanable computationally.} \\
+
+
+Reviewer \#2:
+
+The authors present a density functional (VASP) study of the fcc-hcp martensitic transformation in Co-based alloys. Two possible transformation models are examined using the calculated energy landscape. The minimum energy path is determined and studied as a function of composition. In principle this work is very welcome and might be published. However, I have a few questions that should be addressed and properly fixed. \\
+
+There is no discussion how the alloying was modelled for various cases. Did the author employ SQS or regular supercell techniques? How large was the size of the cell? \\
+\textcolor{red}{\textit{Ans}: 16 atom supercells were used for the calculations. For each composition, calculations were carried out by positioning alloying element in 3 different configurations. Results did not differ significantly hence structure yielding the lowest energy was chosen and used for the calculations. A note has been added to the manuscript to reflect this.} \\
+
+It is unclear how Fig. 1 was obtained, please provide details. \\
+\textcolor{red}{\textit{Ans}: The authors apologize for the non-inclusion of details regarding the Bain path calculation. A detailed description of the calculation has been added to the manuscript} \\
+
+There is nothing mentioned about magnetism. Cobalt is a strong ferromagnet so one would not expect dramatic changes in Co-rich cases. But how does magnetism affect the calculated trends in concentrated alloys? How was the magnetism accounted for? \\
+\textcolor{red}{\textit{Ans}: All calculations presented in the manuscript are spin-polarized calculations. We also repeated the calculations for the case of Co-Al by switching off magnetism ( non-spin polarized calculations) and results did not differ significantly. A note has been added to the manuscript to reflect this.} \\
+Please add symbols (fcc and hcp) to Fig. 2b as well. Without clarifying these issues, the manuscript cannot be accepted.\\
+\textcolor{red}{\textit{Ans}: Symbols have been added to Fig. 2b} 
+
+The authors would like to thank the referees for their perusal of the manuscript and valuable suggestions to improve the work.
+
+
+\end{document}
